@@ -33,5 +33,5 @@ app.get('/*', function (req, res) {
 const APP_PORT = process.env.PORT || 3000;
 
 var listener = app.listen(APP_PORT, function(){
-  console.log('Listening on port ' + listener.address().port); //Listening on port APP_PORT
+  console.log('Listening on port ' + listener.address().port);
 });
